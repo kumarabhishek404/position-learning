@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Position</title>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Following is POSITION Property of CSS</h1>
+        <h4>The position property specifies the type of positioning method used for an element.</h4>
+    </div>
+    <div class="container">
+
+        <!-- Sticky position -->
+        <div class="sticky">
+            <h3>Sticky</h3>
+            <p>It is positioned based on the user's scroll position <br> This element stick at top ( top: 0; )</p>
+        </div>
+
+        <!-- Fixed position -->
+        <div class="fixed">
+            <h3>Fixed</h3>
+            <p>It is positioned relative to viewport <br> This box is fixed at 300px from top and 40 px from left.</p>
+        </div>
+
+        <!-- Absolute position -->
+        <div class="absolute_ancestor">
+            <h2>Ancestor of Absolute Box</h2>
+            <div class="absolute">
+                <h3>Absolute</h3>
+                <p>It is positioned relative to the nearest positioned ancestor <br> This box is at absolute position relative to its ancestor box, <br> 10px from bottom and 0px from right of ancestor box.</p>
+            </div>
+        </div>
+
+        <!-- Relative position -->
+        <div class="relative">
+            <h3>Relative</h3>
+            <p>It is positioned relative to its normal position. <br> This box is positioned relative to its normal position by 10px from top and 300px from left.</p>
+        </div>
+
+        <!-- Static position -->
+        <div class="static">
+            <h3>Static</h3>
+            <p>Static positioned elements are not affected by the top, bottom, left, right. It is always positioned according to the normal flow of the page.</p>
+        </div>
+    </div>
+</body>
+
+</html>
